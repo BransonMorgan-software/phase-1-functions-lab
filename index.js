@@ -1,8 +1,11 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks (street) {
-    if (street<42) {
-        return (42-street);
+function distanceFromHqInBlocks (someValue) {
+    if (someValue<42) {
+        return (42-someValue);
     } else {
-        return (street-42);
+        return (someValue-42);
     }
+}
+function distanceFromHqInFeet(someValue) {
+    return distanceFromHqInBlocks(someValue)*264;
 }
